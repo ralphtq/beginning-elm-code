@@ -1,0 +1,151 @@
+# Beginning Elm
+
+https://elmprogramming.com
+
+### 5.2 COMPLETED
+
+https://elmprogramming.com/model-view-update-part-1.html
+
+elm-live src/Counter.elm
+
+### 5.3 COMPLETED
+
+https://elmprogramming.com/virtual-dom.html
+
+### 5.4 COMPLETED
+
+https://elmprogramming.com/model-view-update-part-2.html
+
+elm-live src/Signup.elm
+
+### 5.5 COMPLETED
+
+https://elmprogramming.com/side-effects.html
+
+### 5.6 COMPLETED
+
+https://elmprogramming.com/commands.html
+
+elm-live src/Profile.elm
+
+### 5.7 COMPLETED
+
+https://elmprogramming.com/elm-architecture-conclusion.html
+
+### 6.1 COMPLETED
+
+https://elmprogramming.com/http-requests-intro.html
+
+### 6.2 COMPLETED
+
+https://elmprogramming.com/fetching-data-using-get.html
+
+elm-live src/HttpExamples.elm
+
+### 6.3 TODO
+
+https://elmprogramming.com/decoding-json-part-1.html
+
+
+### 6.4 TODO
+
+https://elmprogramming.com/decoding-json-part-2.html
+
+### 6.5 TODO
+
+https://elmprogramming.com/remote-data.html
+
+### 6.6 TODO
+
+https://elmprogramming.com/retrieving-data-on-initialization.html
+
+### 6.7 TODO
+
+https://elmprogramming.com/http-requests-conclusion.html
+
+
+### 7.1 TODO
+
+https://elmprogramming.com/single-page-apps-intro.html
+
+### 7.2 TODO
+
+https://elmprogramming.com/what-is-a-single-page-app.html
+
+### 7.3 TODO
+
+https://elmprogramming.com/restructuring-code.html
+
+### 7.4 TODO
+
+https://elmprogramming.com/creating-post-module.html
+
+### 7.5 TODO
+
+https://elmprogramming.com/creating-list-posts-page.html
+
+### 7.6 TODO
+
+https://elmprogramming.com/navigating-to-list-posts-page.html
+
+### 7.7 TODO
+
+https://elmprogramming.com/editing-a-post.html
+
+### 7.8 TODO
+
+https://elmprogramming.com/deleting-a-post.html
+
+### 7.9 TODO
+
+https://elmprogramming.com/creating-a-new-post.html
+
+### 7.10 TODO
+
+https://elmprogramming.com/single-page-apps-conclusion.html
+
+### 8.1 TODO
+
+https://elmprogramming.com/interact-with-javascript-intro.html
+
+
+### 8.2 TODO
+
+https://elmprogramming.com/sending-data-to-javascript.html
+
+### 8.3 TODO
+
+https://elmprogramming.com/subscriptions.html
+
+### 8.4 TODO
+
+https://elmprogramming.com/receiving-data-from-javascript.html
+
+### 8.5 TODO
+
+https://elmprogramming.com/protecting-boundaries.html
+
+### 8.6 TODO
+
+https://elmprogramming.com/saving-app-state.html
+
+### 8.7 TODO
+
+https://elmprogramming.com/retrieving-app-state.html
+
+### 8.8 TODO
+
+https://elmprogramming.com/interacting-with-web-components.html
+
+### 8.9 TODO
+
+https://elmprogramming.com/interact-with-javascript-conclusion.html
+
+
+### 8.10 TODO
+
+https://elmprogramming.com/where-to-go-from-here.html
+
+https://github.com/sporto/awesome-elm
+https://elm-lang.org/community
+
