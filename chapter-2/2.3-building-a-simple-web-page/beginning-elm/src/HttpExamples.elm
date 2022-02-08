@@ -4,6 +4,7 @@ import Browser
 import Html exposing (..)
 import Html.Events exposing (onClick)
 import Http
+import Json.Decode exposing (Decoder, Error(..), decodeString, list, string)
 
 
 type alias Model =
@@ -82,8 +83,8 @@ type Msg
 
 url : String
 url =
-    "http://localhost:5016/old-school.txt"
-
+    -- "http://localhost:5016/old-school.txt"
+   "http://localhost:5019/nicknames"
 
 
 --  "http://localhost:5016/invalid.txt"
@@ -96,6 +97,9 @@ getNicknames =
         , expect = Http.expectString DataReceived
         }
 
+nicknamesDecoder : Decoder (List String)
+nicknamesDecoder =
+    list string
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
@@ -103,12 +107,15 @@ update msg model =
         SendHttpRequest ->
             ( model, getNicknames )
 
-        DataReceived (Ok nicknamesStr) ->
-            let
-                nicknames =
-                    String.split "," nicknamesStr
-            in
-            ( { model | nicknames = nicknames }, Cmd.none )
+        DataReceived (Ok nicknamesJson) ->
+            case decodeString nicknamesDecoder nicknamesJson of
+                Ok nicknames ->
+                    ( { model | nicknames = nicknames }, Cmd.none )
+
+                Err error ->
+                    ( { model | errorMessage = handleJsonError error }
+                    , Cmd.none
+                    )
 
         DataReceived (Err httpError) ->
             ( { model
@@ -117,6 +124,14 @@ update msg model =
             , Cmd.none
             )
 
+handleJsonError : Json.Decode.Error -> Maybe String
+handleJsonError error =
+    case error of
+        Failure errorMessage _ ->
+            Just errorMessage
+
+        _ ->
+            Just "Error: Invalid JSON"
 
 init : () -> ( Model, Cmd Msg )
 init _ =

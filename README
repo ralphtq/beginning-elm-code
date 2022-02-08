@@ -42,14 +42,33 @@ https://elmprogramming.com/fetching-data-using-get.html
 
 elm-live src/HttpExamples.elm
 
-### 6.3 TODO
+### 6.3 COMPLETED
 
 https://elmprogramming.com/decoding-json-part-1.html
 
+Needs this server:
 
-### 6.4 TODO
+json-server --watch server/old-school.json -p 5019
+
+then in another terminal:
+
+elm reactor
+
+### 6.4 COMPLETED
 
 https://elmprogramming.com/decoding-json-part-2.html
+
+The JSON structure we retrieved from a server in the previous section is quite simple. 
+It’s just an array of strings. 
+Most real world Elm apps have to deal with a lot more complex structures. 
+In this section, we will learn how to decode objects, nested values, nullable values, and many more types of JSON.
+
+Three terminals:
+
+1) json-server --watch server/db.json -p 5019
+2) elm-live src/DecodingJson.elm
+3) elm reactor
+
 
 ### 6.5 TODO
 
