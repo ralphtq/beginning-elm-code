@@ -70,60 +70,78 @@ Three terminals:
 3) elm reactor
 
 
-### 6.5 TODO
+### 6.5 COMPLETED
 
 https://elmprogramming.com/remote-data.html
 
-### 6.6 TODO
+So far we have only dealt with the Success and Failure states. 
+Once we handle the remaining two, our UI will be in a much better shape. 
+We will be using a third-party package called krisajenkins/remotedata to handle the remaining states. 
+Go ahead and install it by running the following command from the beginning-elm directory in terminal.
+
+reference: http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html
+
+### 6.6 COMPLETED
 
 https://elmprogramming.com/retrieving-data-on-initialization.html
 
-### 6.7 TODO
+### 6.7 COMPLETED
 
 https://elmprogramming.com/http-requests-conclusion.html
 
 
-### 7.1 TODO
+### 7.1 COMPLETED
 
 https://elmprogramming.com/single-page-apps-intro.html
 
-### 7.2 TODO
+### 7.2 COMPLETED
 
 https://elmprogramming.com/what-is-a-single-page-app.html
 
-### 7.3 TODO
+### 7.3 COMPLETED
 
 https://elmprogramming.com/restructuring-code.html
 
-### 7.4 TODO
+### 7.4 COMPLETED
+
+Create a new directory called post-app inside beginning-elm instead of cluttering the src directory with too many modules.
 
 https://elmprogramming.com/creating-post-module.html
 
-### 7.5 TODO
+### 7.5 COMPLETED
 
 https://elmprogramming.com/creating-list-posts-page.html
 
-### 7.6 TODO
+### 7.6 COMPLETED
 
 https://elmprogramming.com/navigating-to-list-posts-page.html
 
-### 7.7 TODO
+How to properly route users to the correct page. 
+Elm provides the following modules to facilitate routing in an app:
+
+1. Browser.Navigation
+1. Url
+1. Url.Parser
+1. Url.Builder
+1. Url.Parser.Query
+
+### 7.7 COMPLETED
 
 https://elmprogramming.com/editing-a-post.html
 
-### 7.8 TODO
+### 7.8 COMPLETED
 
 https://elmprogramming.com/deleting-a-post.html
 
-### 7.9 TODO
+### 7.9 COMPLETED
 
 https://elmprogramming.com/creating-a-new-post.html
 
-### 7.10 TODO
+### 7.10 COMPLETED
 
 https://elmprogramming.com/single-page-apps-conclusion.html
 
-### 8.1 TODO
+### 8.1 COMPLETED
 
 https://elmprogramming.com/interact-with-javascript-intro.html
 
